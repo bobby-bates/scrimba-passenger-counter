@@ -1,0 +1,61 @@
+body {
+    background-image: url("bike-lane.jpg");
+    background-position-x: center;
+    background-color: #ccc;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 2px green;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #73a33e;
+    width: 400px;
+    padding: 20px 0;
+    border-radius: 10px;
+    /* Fun fuzzy border: */
+    box-shadow: 0 0 30px inset,
+                0 0 50px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 125px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 0;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5px 5px;
+}
+
+#increment-btn {
+    background: green;
+    box-shadow: 0 0 5px green;
+}
+
+#save-btn {
+    background: #e59b29;
+    box-shadow: 0 0 5px #e59b29;
+}
+
+#save-el {
+    /* color: red; */
+    font-size: 18px;
+}
